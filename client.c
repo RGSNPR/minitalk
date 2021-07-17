@@ -24,7 +24,7 @@ void	send_symbol(int pid, char byte)
 				exit_error("Bad pid :(\n");
 		}
 		counter >>= 1;
-		usleep(400);
+		usleep(50);
 	}
 }
 
